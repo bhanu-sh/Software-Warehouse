@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Warehouse</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    >
+  </head>
+  <body class="bg-black">
+    <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          >Software<span class="text-danger">Warehouse</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link border-start" href="social.html"
+              >Social</a
+            >
+            <a class="nav-link" href="office.html">Office</a>
+            <a class="nav-link border-end" href="tool.html"
+              >Tools</a
+            >
+            <a class="nav-link nav-active" href="about.html">About</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-white">
+      <h1 class="text-center">About Us</h1>
+      <p>
+        SoftwareWarehouse is a website that provides free and open source
+        software for all your needs. We have a wide variety of software
+        available for download, including social media, office, and tool
+        software. We are a team of software engineers who are passionate about
+        open source software and want to share our passion with the world. We
+        hope you enjoy our website!
+      </p>
+      <hr>
+      <form class="text-white" action="index.html" method="post">
+        <h2>Contact Us</h2>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" class="form-control bg-dark my-2 text-white">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" class="form-control bg-dark my-2 text-white">
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="30" rows="10" class="form-control bg-dark my-2 text-white"></textarea>
+        <input onclick="alert('Thank You')" type="submit" value="Submit" class="btn btn-warning my-4">
+      </form>
+    </div>
+    <footer class="card  text-center bg-black" data-bs-theme="dark">
+      <div class="card-header">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">
+          &copy; 2024 Software<span class="text-danger">Warehouse</span> | All Rights Reserved
+        </h5>
+        <p class="card-text">Featured by:</p>
+        <a href="https://www.touro.edu/" class="btn btn-primary">Touro University</a>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

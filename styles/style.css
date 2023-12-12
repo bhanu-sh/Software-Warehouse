@@ -1,0 +1,17 @@
+.nav-active{
+    border-bottom: 2px solid red !important;
+    color: red !important;
+}
+
+.navbar{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+.card-img{
+    opacity: 50% !important;
+}
+/* 
+.img-fluid{
+    width: 250px !important;
+} */
